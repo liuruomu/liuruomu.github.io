@@ -7,7 +7,7 @@ author:     "Liu lin"
 header-img: "img/avatar-lcw.jpg"
 catalog: true
 tags:
-    - 生活 -吐槽
+    - 生活 吐槽
 ---
 
 > “Yeah It's begin. ”
