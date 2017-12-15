@@ -1,0 +1,99 @@
+# Site settings
+title: L&L Blog
+SEOTitle: 刘琳的博客 | Hali Blog
+header-img: img/home-bg.jpg
+email: xixi880928@126.com
+description: "关于前端与设计、美食与暖心小故事 | 刘琳，Web & Js Lover，Software Engineer，UX Designer | 这里是 @Liuruomu 的妈妈 刘琳 的个人博客，与你一起发现更大的世界。"
+keyword: "刘琳, 刘琳的博客,  Hali Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, web, Js,es6, AngularJs, nodeJs"
+url: "https://liuruomu.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     u/3604006941
+zhihu_username:     ha-li-49-71
+github_username:    liuruomu
+facebook_username:
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: ll
+
+# Duoshuo settings
+duoshuo_username: llblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+# ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "技术好宅，Js lover, 热血漫 lover<br>"
+sidebar-avatar: /img/avatar-ll.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "刘崇武",
+        href: "https://liuchongwuhust.github.io"
+    },{
+        title: "...等等",
+        href: "http://mida.re/"
+    }
+
+]
