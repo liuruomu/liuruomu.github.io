@@ -1,10 +1,10 @@
 # Site settings
 title: L&L Blog
-SEOTitle: 刘琳的博客 | Hali Blog
+SEOTitle: 刘琳的博客 | L&L Blog
 header-img: img/home-bg.jpg
 email: xixi880928@126.com
 description: "关于前端与设计、美食与暖心小故事 | 刘琳，Web & Js Lover，Software Engineer，UX Designer | 这里是 @Liuruomu 的妈妈 刘琳 的个人博客，与你一起发现更大的世界。"
-keyword: "刘琳, 刘琳的博客,  Hali Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, web, Js,es6, AngularJs, nodeJs"
+keyword: "刘琳, 刘琳的博客,  L&L Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, web, Js,es6, AngularJs, nodeJs"
 url: "https://liuruomu.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
