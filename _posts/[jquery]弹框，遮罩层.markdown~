@@ -1,0 +1,28 @@
+之前使用semantic的modal作为遮罩层。出现了一些关乎源代码的bug。
+所以自己必须要写一个自己的弹框以达到目的：
+![这里写图片描述](http://img.blog.csdn.net/20171218145224529?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGl4aTg4MDkyOA==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+
+需要满足：
+1.兼容原系统
+2.点击弹框背景变灰，背景功能不可点击（形成一个遮罩层）
+3.点击弹框头部进行拖动
+5.弹框内部自定义
+
+
+实现方案：
+参照Jquery-ui.用draggble即可。
+弹框弹出时：
+
+```
+  .遮罩层{
+      z-index: 1001;//放置在其他元素的最上层即可实现遮罩功能
+      background-color: #ccc;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      overflow: auto;
+      position: fixed;
+      width: 100%;
+
+    }
+```
